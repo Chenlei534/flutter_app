@@ -23,8 +23,9 @@ dependencies: #应用或包依赖的其他包或插件
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  english_words: ^3.1.3
 
-dev_dependencies:
+dev_dependencies: #开发环境依赖的工具包
   flutter_test:
     sdk: flutter
 
@@ -33,7 +34,7 @@ dev_dependencies:
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
 # The following section is specific to Flutter.
-flutter:
+flutter:  #flutter相关的配置选项
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

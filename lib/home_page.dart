@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/echo.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
@@ -28,6 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Echo(text: "holle world"),
             Text(
               'You have pushed the button this many times:',
             ),
@@ -46,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
 //                          return new NewRoute();
 //                        })
 //                );
-              Navigator.pushNamed(context, "new_page");
+              Navigator.pushNamed(context, "ios_style");
               },
             )
           ],

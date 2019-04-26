@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/counter_widget.dart';
+import 'package:flutter_app/cupertino_widget.dart';
 import 'package:flutter_app/home_page.dart';
 import 'package:flutter_app/new_route.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -16,6 +19,8 @@ class MyApp extends StatelessWidget {
 //      注册路由表
       routes: {
         "new_page":(context)=>NewRoute(),
+        "count_widget":(context)=>CounterWidget(),
+        "ios_style":(context)=>CupertinoTestRoute(),
       },
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );

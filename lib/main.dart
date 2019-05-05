@@ -3,6 +3,7 @@ import 'package:flutter_app/counter_widget.dart';
 import 'package:flutter_app/cupertino_widget.dart';
 import 'package:flutter_app/home_page.dart';
 import 'package:flutter_app/new_route.dart';
+import 'package:flutter_app/widget_learn.dart';
 
 
 void main() => runApp(MyApp());
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
         "count_widget":(context)=>CounterWidget(),
         "ios_style":(context)=>CupertinoTestRoute(),
       },
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+//      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: WidgetLearn(),
     );
   }
 }

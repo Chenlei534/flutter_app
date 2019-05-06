@@ -3,7 +3,11 @@ import 'package:flutter_app/counter_widget.dart';
 import 'package:flutter_app/cupertino_widget.dart';
 import 'package:flutter_app/home_page.dart';
 import 'package:flutter_app/new_route.dart';
-import 'package:flutter_app/widget_learn.dart';
+import 'package:flutter_app/widget_button.dart';
+import 'package:flutter_app/widget_checkbox.dart';
+import 'package:flutter_app/widget_filed.dart';
+import 'package:flutter_app/widget_image.dart';
+import 'package:flutter_app/widget_text.dart';
 
 
 void main() => runApp(MyApp());
@@ -24,7 +28,11 @@ class MyApp extends StatelessWidget {
         "ios_style":(context)=>CupertinoTestRoute(),
       },
 //      home: MyHomePage(title: 'Flutter Demo Home Page'),
-      home: WidgetLearn(),
+//      home: WidgetText(),
+//      home: WidgetButton(),
+//      home: WidgetImage(),
+//      home: WidgetCheckBox(),
+      home: WidgetFiled(),
     );
   }
 }
